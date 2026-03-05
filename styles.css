@@ -1,0 +1,7 @@
+body{font-family:Arial,Helvetica,sans-serif;background:#f4f6f8;color:#222;padding:24px}
+main{max-width:640px;margin:20px auto;background:#fff;padding:20px;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.08)}
+h1{margin-top:0}
+label{display:block;margin:12px 0}
+select,input[type=file],input[type=number]{width:100%;padding:8px;margin-top:6px}
+button{padding:10px 14px;margin-top:10px}
+#status{margin-top:14px;padding:10px;background:#eef;border-radius:6px;min-height:20px}

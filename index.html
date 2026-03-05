@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>ESP32 ID Uploader</title>
+    <link rel="stylesheet" href="/static/styles.css">
+  </head>
+  <body>
+    <main>
+      <h1>ESP32 ID Uploader</h1>
+      <form id="uploadForm">
+        <p>Server will publish uploaded IDs to the configured MQTT broker (server-side defaults).</p>
+        <label>Excel file (.xlsx)
+          <input type="file" id="file" name="file" accept=".xlsx,.xls">
+        </label>
+        <button type="submit">Upload and Send (server defaults)</button>
+      </form>
+      <div id="status"></div>
+      <a href="/download-template"><button id="downloadTemplate">Download Excel Template</button></a>
+    </main>
+    <script src="/static/script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
