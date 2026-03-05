@@ -1,0 +1,6 @@
+flask
+pandas
+openpyxl
+pyserial
+paho-mqtt
+xlrd
